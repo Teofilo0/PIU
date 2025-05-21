@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.app {
+  padding: 20px;
+  background-color: #f0f0f0;
+  color: #222;
+}
+
+.app.dark {
+  background-color: #121212;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #444;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.character-grid {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.character-thumbnail {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+.character-thumbnail:hover {
+  transform: scale(1.05);
+}
+
+.character-details {
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.character-details img {
+  max-width: 200px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.search-input {
+  padding: 8px;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.app.dark .search-input {
+  background-color: #333;
+  color: white;
+  border: 1px solid #666;
+}
