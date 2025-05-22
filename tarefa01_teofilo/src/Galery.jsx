@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import CharacterList from './CharacterList';
 import CharacterDetails from './CharacterDetails';
 
+
 const characters = [
     {
         id: 1,
@@ -38,7 +39,7 @@ const characters = [
         name: 'prf',
         image: '../public/prf.jpg',
         description: 'PRF, o ex-assassino... de pizza. Sua única missão agora é comer sem culpa.'
-      }
+      } 
 ];
 
 export default function Galery() {
