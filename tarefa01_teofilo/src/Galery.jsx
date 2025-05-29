@@ -53,7 +53,6 @@ export default function Galery() {
       setSelectedCharacter(character);
     }
   };
-
   const filteredCharacters = characters.filter((char) =>
     char.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
