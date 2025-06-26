@@ -10,7 +10,7 @@ function App() {
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)} style={{height:count > 10 ? '600px' : ''}}>+</button>
         <p>{count}</p>
-        <button onClick={() => setCount((count) => count - 1)} style={{height:count < 0 ? '600px' : ''}}>-</button>
+        <button onClick={() => setCount((count) => count - 1)} style={{height:count < 0 ? '2px' : ''}}>-</button>
       </div>
     </>
   )

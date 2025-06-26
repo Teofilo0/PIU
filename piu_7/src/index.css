@@ -44,8 +44,6 @@ button {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
-  height: 100px;
-  width: 100px;
   transition: border-color 0.25s;
 }
 button:hover {
@@ -66,14 +64,5 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
-    height: 100px;
-    width: 100px;
   }
-}
-
-.car_list{
-  display: flex;
-  justify-content: space-around;
-  align-items: row;
-  width: 400px;
 }
